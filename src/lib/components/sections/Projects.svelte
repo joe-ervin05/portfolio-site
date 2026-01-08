@@ -97,20 +97,18 @@
         {#each projects as project, i}
           <div in:fly={{ y: 30, duration: 500, delay: 150 + i * 100 }}>
             <Card.Root
-              class="h-full flex flex-col hover:ring-4 hover:ring-muted transition-all duration-300 group"
+              class="h-full flex flex-col hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[8px_8px_0px_0px] hover:shadow-foreground/10 transition-all duration-300 group"
             >
               <Card.Header>
                 <div class="flex items-start justify-between">
-                  <div class="p-2 rounded-lg bg-muted ring-2 ring-border mb-2">
-                    <Folder class="h-6 w-6 text-primary" />
-                  </div>
+                  <Folder class="h-6 w-6 text-muted-foreground mb-2" />
                   <div class="flex gap-3">
                     {#if project.githubUrl}
                       <a
                         href={project.githubUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-all"
+                        class="p-2 rounded-none border-2 border-foreground/20 text-muted-foreground hover:text-foreground hover:border-foreground/40 shadow-[2px_2px_0px_0px] shadow-foreground/10 hover:shadow-[1px_1px_0px_0px] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
                         aria-label="View source on GitHub"
                       >
                         <Github class="h-5 w-5" />
@@ -121,7 +119,7 @@
                         href={project.liveUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-all"
+                        class="p-2 rounded-none border-2 border-foreground/20 text-muted-foreground hover:text-foreground hover:border-foreground/40 shadow-[2px_2px_0px_0px] shadow-foreground/10 hover:shadow-[1px_1px_0px_0px] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
                         aria-label="View live demo"
                       >
                         <ExternalLink class="h-5 w-5" />
@@ -141,7 +139,7 @@
               <Card.Footer>
                 <div class="flex flex-wrap gap-2">
                   {#each project.technologies as tech}
-                    <Badge variant="secondary" class="text-xs font-medium rounded-md">
+                    <Badge variant="secondary">
                       {tech}
                     </Badge>
                   {/each}

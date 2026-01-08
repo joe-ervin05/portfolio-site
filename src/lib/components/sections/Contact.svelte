@@ -34,9 +34,9 @@
         <div class="flex flex-col md:flex-row items-center gap-6 md:gap-8">
           <div
             in:fly={{ x: -30, duration: 600, delay: 50 }}
-            class="shrink-0 p-4 rounded-lg bg-muted ring-4 ring-border"
+            class="shrink-0 p-4 rounded-none bg-muted border border-foreground/10"
           >
-            <Mail class="h-8 w-8 text-primary" />
+            <Mail class="h-8 w-8 text-muted-foreground" />
           </div>
 
           <div class="flex flex-col gap-2 text-center md:text-left">
@@ -86,7 +86,7 @@
               href="https://github.com/joe-ervin05"
               target="_blank"
               rel="noopener noreferrer"
-              class="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted ring-2 ring-transparent hover:ring-border transition-all"
+              class="p-2 rounded-none border-2 border-foreground/20 text-muted-foreground hover:text-foreground hover:border-foreground/40 shadow-[2px_2px_0px_0px] shadow-foreground/10 hover:shadow-[1px_1px_0px_0px] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
               aria-label="GitHub"
             >
               <Github class="h-5 w-5" />
@@ -95,14 +95,14 @@
               href="https://linkedin.com/in/joeervin05"
               target="_blank"
               rel="noopener noreferrer"
-              class="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted ring-2 ring-transparent hover:ring-border transition-all"
+              class="p-2 rounded-none border-2 border-foreground/20 text-muted-foreground hover:text-foreground hover:border-foreground/40 shadow-[2px_2px_0px_0px] shadow-foreground/10 hover:shadow-[1px_1px_0px_0px] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
               aria-label="LinkedIn"
             >
               <Linkedin class="h-5 w-5" />
             </a>
             <a
               href="mailto:joe_ervin10@outlook.com"
-              class="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted ring-2 ring-transparent hover:ring-border transition-all"
+              class="p-2 rounded-none border-2 border-foreground/20 text-muted-foreground hover:text-foreground hover:border-foreground/40 shadow-[2px_2px_0px_0px] shadow-foreground/10 hover:shadow-[1px_1px_0px_0px] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
               aria-label="Email"
             >
               <Mail class="h-5 w-5" />

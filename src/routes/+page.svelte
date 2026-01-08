@@ -17,18 +17,14 @@
   <Projects />
   <Contact />
 
-  <footer class="py-8 px-6 bg-muted/30">
-    <div class="max-w-6xl mx-auto">
-      <div
-        class="flex flex-col md:flex-row items-center justify-between gap-4 py-4 px-6 rounded-lg bg-card border ring-1 ring-border"
-      >
-        <p class="text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Joe Ervin
-        </p>
-        <p class="text-sm text-muted-foreground">
-          Built with SvelteKit & Tailwind
-        </p>
-      </div>
+  <footer class="py-8 px-6 border-t-2 border-foreground/10">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="text-xs text-muted-foreground uppercase tracking-wide">
+        &copy; {new Date().getFullYear()} Joe Ervin
+      </p>
+      <p class="text-xs text-muted-foreground uppercase tracking-wide">
+        Built with SvelteKit & Tailwind
+      </p>
     </div>
   </footer>
 </main>

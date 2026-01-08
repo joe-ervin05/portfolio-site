@@ -3,7 +3,6 @@
   import { Button } from "$lib/components/ui/button";
   import { Card } from "$lib/components/ui/card";
   import { ArrowDown, Github, Linkedin, Mail } from "@lucide/svelte";
-  import CylinderGrid from "$lib/components/CylinderGrid.svelte";
 
   let visible = $state(false);
 
@@ -15,8 +14,6 @@
 <section
   class="min-h-screen flex flex-col justify-center items-center px-6 py-20 relative overflow-hidden"
 >
-  <CylinderGrid />
-
   {#if visible}
     <div
       class="max-w-4xl w-full flex flex-col items-center gap-5 relative z-10"
@@ -28,7 +25,7 @@
           <img
             src="/profile.jpg"
             alt="Joe Ervin"
-            class="w-24 h-24 md:w-28 md:h-28 rounded-lg object-cover ring-4 ring-muted"
+            class="w-24 h-24 md:w-28 md:h-28 rounded-none object-cover border border-foreground/10"
           />
         </div>
 
@@ -56,14 +53,26 @@
 
       <div
         in:fly={{ y: -20, duration: 600, delay: 300 }}
-        class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6"
+        class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 w-full md:w-auto"
       >
-        <div class="flex items-center gap-3">
-          <Button variant="default" size="lg" href="#contact">
+        <div
+          class="flex flex-col md:flex-row items-stretch gap-3 w-full md:w-auto"
+        >
+          <Button
+            variant="default"
+            size="lg"
+            href="#contact"
+            class="w-full md:w-auto justify-center"
+          >
             Get in Touch
             <Mail class="ml-2 h-4 w-4" />
           </Button>
-          <Button variant="outline" size="lg" href="#projects">
+          <Button
+            variant="outline"
+            size="lg"
+            href="#projects"
+            class="w-full md:w-auto justify-center"
+          >
             View Projects
             <ArrowDown class="ml-2 h-4 w-4" />
           </Button>
@@ -79,7 +88,7 @@
             href="https://github.com/joe-ervin05"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-muted-foreground hover:text-foreground transition-colors duration-200"
+            class="p-2 rounded-none border-2 border-foreground/20 text-muted-foreground hover:text-foreground hover:border-foreground/40 shadow-[2px_2px_0px_0px] shadow-foreground/10 hover:shadow-[1px_1px_0px_0px] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
             aria-label="GitHub"
           >
             <Github class="h-5 w-5" />
@@ -88,14 +97,14 @@
             href="https://linkedin.com/in/joeervin05"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-muted-foreground hover:text-foreground transition-colors duration-200"
+            class="p-2 rounded-none border-2 border-foreground/20 text-muted-foreground hover:text-foreground hover:border-foreground/40 shadow-[2px_2px_0px_0px] shadow-foreground/10 hover:shadow-[1px_1px_0px_0px] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
             aria-label="LinkedIn"
           >
             <Linkedin class="h-5 w-5" />
           </a>
           <a
             href="mailto:joe_ervin10@outlook.com"
-            class="text-muted-foreground hover:text-foreground transition-colors duration-200"
+            class="p-2 rounded-none border-2 border-foreground/20 text-muted-foreground hover:text-foreground hover:border-foreground/40 shadow-[2px_2px_0px_0px] shadow-foreground/10 hover:shadow-[1px_1px_0px_0px] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
             aria-label="Email"
           >
             <Mail class="h-5 w-5" />
