@@ -3,6 +3,7 @@
   import { Button } from "$lib/components/ui/button";
   import { Card } from "$lib/components/ui/card";
   import { ArrowDown, Github, Linkedin, Mail } from "@lucide/svelte";
+  import CylinderGrid from "$lib/components/CylinderGrid.svelte";
 
   let visible = $state(false);
 
@@ -14,43 +15,15 @@
 <section
   class="min-h-screen flex flex-col justify-center items-center px-6 py-20 relative overflow-hidden"
 >
-  <!-- Neo-retro cylinder grid background -->
-  <div class="absolute inset-0 pointer-events-none flex items-center justify-center">
-    <svg
-      class="w-[120%] h-[120%] text-primary opacity-[0.12] animate-[pulse-grid_20s_ease-in-out_infinite]"
-      viewBox="0 0 100 100"
-      preserveAspectRatio="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <!-- Curved vertical lines - cylinder effect -->
-      {#each Array(21) as _, i}
-        <path
-          d="M {i * 5} 0 Q {i * 5 + (i < 10 ? (10 - i) * 1.5 : (i - 10) * -1.5)} 50 {i * 5} 100"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="0.15"
-          class="animate-[draw-line_2s_ease-out_forwards]"
-          style="stroke-dasharray: 150; stroke-dashoffset: 150; animation-delay: {i * 0.05}s"
-        />
-      {/each}
-
-      <!-- Curved horizontal lines - cylinder effect -->
-      {#each Array(25) as _, i}
-        <path
-          d="M 0 {i * 4} Q 50 {i * 4 + (i < 12 ? (12 - i) * 1.5 : (i - 12) * 1.5)} 100 {i * 4}"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="0.15"
-          class="animate-[draw-line_2s_ease-out_forwards]"
-          style="stroke-dasharray: 150; stroke-dashoffset: 150; animation-delay: {0.3 + i * 0.05}s"
-        />
-      {/each}
-    </svg>
-  </div>
+  <CylinderGrid />
 
   {#if visible}
-    <div class="max-w-4xl w-full flex flex-col items-center gap-5 relative z-10">
-      <Card class="flex flex-col md:flex-row items-center gap-6 md:gap-8 p-6 md:p-8">
+    <div
+      class="max-w-4xl w-full flex flex-col items-center gap-5 relative z-10"
+    >
+      <Card
+        class="flex flex-col md:flex-row items-center gap-6 md:gap-8 p-6 md:p-8"
+      >
         <div in:fly={{ x: -30, duration: 600, delay: 50 }} class="shrink-0">
           <img
             src="/profile.jpg"
@@ -66,9 +39,7 @@
             >
               Software Engineer
             </p>
-            <h1
-              class="text-3xl md:text-4xl font-bold tracking-tight"
-            >
+            <h1 class="text-3xl md:text-4xl font-bold tracking-tight">
               Hi, I'm <span class="text-primary">Joe Ervin</span>
             </h1>
           </div>
