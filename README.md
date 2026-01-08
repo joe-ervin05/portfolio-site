@@ -1,10 +1,10 @@
 # Portfolio Site
 
-My portfolio website for software engineering.
+My portfolio site for software engineering.
 
 ## About
 
-This is a personal portfolio website showcasing my software engineering projects, skills, and experience.
+This is a personal portfolio site showcasing my software engineering projects, skills, and experience.
 
 ## Getting Started
 
@@ -20,7 +20,7 @@ This is a personal portfolio website showcasing my software engineering projects
    cd portfolio-site
    ```
 
-2. Follow the setup instructions as the project develops
+2. Additional setup instructions will be provided as the project develops
 
 ## Contributing
 
