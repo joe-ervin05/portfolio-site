@@ -88,7 +88,7 @@
             href="https://github.com/joe-ervin05"
             target="_blank"
             rel="noopener noreferrer"
-            class="p-2 rounded-none border-2 border-foreground/20 text-muted-foreground hover:text-foreground hover:border-foreground/40 shadow-[2px_2px_0px_0px] shadow-foreground/10 hover:shadow-[1px_1px_0px_0px] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
+            class="p-2 rounded-none border-2 border-foreground/30 text-foreground/70 hover:text-foreground hover:border-foreground/50 shadow-[2px_2px_0px_0px] shadow-foreground/10 hover:shadow-[1px_1px_0px_0px] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
             aria-label="GitHub"
           >
             <Github class="h-5 w-5" />
@@ -97,14 +97,14 @@
             href="https://linkedin.com/in/joeervin05"
             target="_blank"
             rel="noopener noreferrer"
-            class="p-2 rounded-none border-2 border-foreground/20 text-muted-foreground hover:text-foreground hover:border-foreground/40 shadow-[2px_2px_0px_0px] shadow-foreground/10 hover:shadow-[1px_1px_0px_0px] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
+            class="p-2 rounded-none border-2 border-foreground/30 text-foreground/70 hover:text-foreground hover:border-foreground/50 shadow-[2px_2px_0px_0px] shadow-foreground/10 hover:shadow-[1px_1px_0px_0px] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
             aria-label="LinkedIn"
           >
             <Linkedin class="h-5 w-5" />
           </a>
           <a
             href="mailto:joe_ervin10@outlook.com"
-            class="p-2 rounded-none border-2 border-foreground/20 text-muted-foreground hover:text-foreground hover:border-foreground/40 shadow-[2px_2px_0px_0px] shadow-foreground/10 hover:shadow-[1px_1px_0px_0px] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
+            class="p-2 rounded-none border-2 border-foreground/30 text-foreground/70 hover:text-foreground hover:border-foreground/50 shadow-[2px_2px_0px_0px] shadow-foreground/10 hover:shadow-[1px_1px_0px_0px] hover:translate-x-[1px] hover:translate-y-[1px] transition-all"
             aria-label="Email"
           >
             <Mail class="h-5 w-5" />
