@@ -1,7 +1,7 @@
 <script lang="ts">
   import "../app.css";
   import favicon from "$lib/assets/favicon.svg";
-  import Starfield from "$lib/components/Starfield.svelte";
+  import { SpaceBackground } from "$lib/components/space";
 
   let { children } = $props();
 </script>
@@ -21,6 +21,6 @@
   />
 </svelte:head>
 
-<Starfield />
+<SpaceBackground />
 
 {@render children()}
