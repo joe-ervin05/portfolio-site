@@ -1,6 +1,6 @@
 # Contributing to Portfolio Site
 
-Thank you for your interest in contributing to my portfolio website! This document provides guidelines for contributing to this project.
+Thank you for your interest in contributing to my portfolio site! This document provides guidelines for contributing to this project.
 
 ## Getting Started
 
