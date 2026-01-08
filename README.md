@@ -1,2 +1,2 @@
-# portfolio-site
+# Portfolio Website
 My portfolio website for software engineering.
