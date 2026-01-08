@@ -14,6 +14,13 @@
 
   const projects: Project[] = [
     {
+      title: "Portfolio Website",
+      description:
+        "The site you're on right now! A neo-retro portfolio featuring an animated space-themed background with twinkling stars, shooting stars, and smooth transitions.",
+      technologies: ["SvelteKit", "TypeScript", "Tailwind CSS"],
+      githubUrl: "https://github.com/joe-ervin05/portfolio-site",
+    },
+    {
       title: "Task Management App",
       description:
         "A full-stack task management application with real-time updates, user authentication, and collaborative features.",

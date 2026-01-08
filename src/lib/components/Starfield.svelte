@@ -1,6 +1,7 @@
 <script lang="ts">
   const starCount = 150;
-  const stars = Array.from({ length: starCount }, (_, i) => ({
+
+  const stars = new Array(starCount).map((_, i) => ({
     id: i,
     x: Math.random() * 100,
     y: Math.random() * 100,

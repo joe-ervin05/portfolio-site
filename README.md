@@ -1,32 +1,30 @@
 # Portfolio Website
 
-A modern, responsive portfolio website built with SvelteKit and Tailwind CSS. Showcasing projects, skills, and contact information for Joe Ervin, a Software Engineer and Computer Science student at UCF.
+A neo-retro portfolio website with an animated space theme, built with SvelteKit and Tailwind CSS. Showcasing projects, skills, and contact information for Joe Ervin, a Software Engineer and Computer Science student at UCF.
 
-## 🚀 Features
+## Features
 
-- **Modern UI**: Clean, responsive design with smooth animations and transitions
-- **Dark Mode**: Built-in theme toggle for light/dark mode
+- **Neo-Retro Design**: Sharp corners, bold borders, and 3D box shadows with press effects
+- **Animated Space Background**:
+  - Twinkling stars that appear on page load
+  - Moon with craters (desktop only)
+  - Periodic shooting star animation
 - **Interactive Sections**:
-  - Hero section with animated background
+  - Hero section with profile card
   - Projects showcase with technology badges
-  - Contact form
-- **Performance**: Optimized with SvelteKit for fast loading times
+  - Contact section
 - **Accessibility**: Semantic HTML and ARIA labels for better accessibility
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **[SvelteKit](https://kit.svelte.dev/)** - Full-stack framework
 - **[TypeScript](https://www.typescriptlang.org/)** - Type safety
 - **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
 
-## 🌐 Live Site
+## Contact
 
-Visit the live portfolio at:
-
-## 📧 Contact
-
-- **Email**: joe_ervin10@outlook.com
+- **Email**: [joe_ervin10@outlook.com](mailto:joe_ervin10@outlook.com)
 - **GitHub**: [joe-ervin05](https://github.com/joe-ervin05)
 - **LinkedIn**: [joeervin05](https://linkedin.com/in/joeervin05)
 
-Built with ❤️ using SvelteKit & Tailwind CSS
+Built with SvelteKit & Tailwind CSS

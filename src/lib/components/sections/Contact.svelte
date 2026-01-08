@@ -27,7 +27,7 @@
   });
 </script>
 
-<section id="contact" class="py-24 px-6 bg-muted/30" bind:this={sectionRef}>
+<section id="contact" class="py-24 px-6" bind:this={sectionRef}>
   <div class="max-w-2xl mx-auto">
     {#if sectionVisible}
       <Card class="p-6 md:p-8">

@@ -12,7 +12,7 @@
   />
 </svelte:head>
 
-<main class="min-h-screen">
+<main class="min-h-screen relative z-10">
   <Hero />
   <Projects />
   <Contact />
