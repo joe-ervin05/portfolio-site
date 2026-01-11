@@ -16,8 +16,8 @@
     {
       title: "Atomicbase",
       description:
-        "Atomicbase is the backend for effortless multi-tenant architecture. It provides a complete backend solution on top of LibSQL and Turso with authentication, file storage, a dashboard, and client SDKs - all packaged as a single lightning-fast Go executable.",
-      technologies: ["Golang", "SQLite", "Turso", "Typescript", "Svelte"],
+        "The backend for effortless multi-tenant architecture. It's an API built on top of LibSQL and Turso and will eventually be a complete backend solution with authentication, file storage, a dashboard, and client SDKs.",
+      technologies: ["Golang", "SQLite", "Turso", "TypeScript"],
       githubUrl: "https://github.com/joe-ervin05/atomicbase-2",
     },
     {
