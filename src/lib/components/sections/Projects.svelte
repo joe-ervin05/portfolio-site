@@ -14,6 +14,27 @@
 
   const projects: Project[] = [
     {
+      title: "Atomicbase",
+      description:
+        "Atomicbase is the backend for effortless multi-tenant architecture. It provides a complete backend solution on top of LibSQL and Turso with authentication, file storage, a dashboard, and client SDKs - all packaged as a single lightning-fast Go executable.",
+      technologies: ["Golang", "SQLite", "Turso", "Typescript", "Svelte"],
+      githubUrl: "https://github.com/joe-ervin05/atomicbase-2",
+    },
+    {
+      title: "Pagerush Engine",
+      description:
+        "A work-in-progress engine for building web pages in a way that maps well to site builders.",
+      technologies: [
+        "Bun",
+        "TypeScript",
+        "ESBuild",
+        "PostCSS",
+        "Liquid.JS",
+        "Tailwind CSS",
+      ],
+      githubUrl: "https://github.com/joe-ervin05/pagerush-engine",
+    },
+    {
       title: "Portfolio Website",
       description:
         "The site you're on right now! A neo-retro portfolio featuring an animated space-themed background with twinkling stars, shooting stars, and smooth transitions.",
@@ -21,34 +42,10 @@
       githubUrl: "https://github.com/joe-ervin05/portfolio-site",
     },
     {
-      title: "Task Management App",
+      title: "Word Link",
       description:
-        "A full-stack task management application with real-time updates, user authentication, and collaborative features.",
-      technologies: ["React", "Node.js", "PostgreSQL", "Socket.io"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-    },
-    {
-      title: "E-commerce Platform",
-      description:
-        "A modern e-commerce solution with product catalog, shopping cart, payment integration, and admin dashboard.",
-      technologies: ["Next.js", "TypeScript", "Prisma", "Stripe"],
-      githubUrl: "https://github.com",
-    },
-    {
-      title: "Weather Dashboard",
-      description:
-        "A responsive weather application featuring location-based forecasts, interactive maps, and data visualization.",
-      technologies: ["Vue.js", "D3.js", "OpenWeather API"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-    },
-    {
-      title: "CLI Productivity Tool",
-      description:
-        "A command-line tool for developers to automate repetitive tasks and improve workflow efficiency.",
-      technologies: ["Rust", "CLI", "Async Runtime"],
-      githubUrl: "https://github.com",
+        "A terminal-based program that finds the shortest path between two 5 letter words in a dictionary.",
+      technologies: ["Golang", "Graph data structures", "DFS algorithm"],
     },
   ];
 
